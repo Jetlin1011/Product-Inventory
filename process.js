@@ -76,10 +76,10 @@ function search() {
             item_result.innerHTML = `
  <div class="card bg-dark card_login">
  
- <h3 class="text-primary" >Employee Name: ${item.pname}</h3>
- <h3 class="text-primary" >Employee ID: ${item.pid}</h3>
- <h3 class="text-primary" >Employee Quantity: ${item.pquantity}</h3>
- <h3 class="text-primary" >Employee Price: ${item.pprice}</h3>
+ <h3 class="text-primary" >Product Name: ${item.pname}</h3>
+ <h3 class="text-primary" >Product ID: ${item.pid}</h3>
+ <h3 class="text-primary" >Product Quantity: ${item.pquantity}</h3>
+ <h3 class="text-primary" >Product Price: ${item.pprice}</h3>
 
 
  </div>
