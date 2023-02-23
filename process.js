@@ -8,12 +8,13 @@ function submit() {
         }
         else {
             localStorage.setItem(username, password)
+            window.location = "index.html"
+
         }
     }
     else {
         alert("Password does not match!")
     }
-    window.location = "index.html"
 }
 var uname1
 function login() {
