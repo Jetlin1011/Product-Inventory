@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    <h1 class="text-center">Hello <span id="header_name" class="name"></span>! </h1>
+    <h2 class="text-center">Enter the Product details below.</h2>
+
+    <div class="d-flex align-items-center justify-content-center" style="height:40rem;">
+
+    <div class="card card_login bg-dark text-light ">
+        <div class=" log  text-end">
+           <a href="index.html"><p class="" style="color: rgb(139, 28, 224);">log out</p></a>
+        </div>
+        <!-- <form action="" class="text-lght"> -->
+        <label for="pname">Product Name:</label>
+        <input type="text" id="pname" class="p_name home_input">
+
+        <label for="pid">Product ID:</label>
+        <input type="text" id="pid" class="p_id home_input">
+
+        <label for="pprice">Product Price:</label>
+        <input type="text" id="pprice" class="p_price home_input">
+
+        <label for="pquantity">Product Quantity:</label>
+        <input type="text" id="pquantity" class="p_quantity home_input">
+    <!-- </form> -->
+    <div class="d-flex justify-content-between">
+        <button type="button" id="viewitems" onclick="view()" class="btn btn-lg btn_login  mt-5 h-3 p-2  btn-outline "  style="color:whitesmoke; background-color: rgb(139, 28, 224);">View Items</button>
+        <button type="button" id="additems" onclick="add()" class="btn btn-lg btn-outline h-3 p-2 btn_login mt-5  " style="color:whitesmoke; background-color: rgb(139, 28, 224);">Add items</button>
+
+    </div></div>
+    <script src="process.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+.card_login{
+width:55%;
+padding: 3%;
+}
+.btn_login{
+    margin-left: 30px;
+    padding: 0 40px 0 40px;
+  }
+  .link_login{
+    margin-right: 30px;
+  }
+  .home_input{
+    border-bottom: 3px solid rgb(139, 28, 224);
+    border-right: none;
+    width:90%;
+    margin-bottom: 20px;
+    padding: 3px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    color: aliceblue;
+  }
+  a{
+   text-decoration: none;
+   font-size: 1.2rem;
+  }
+
+@media(max-width:820px){
+    .card_login{
+        width:90%;
+    }
+}
+@media(max-width:470px){
+  .btn_login{
+    margin-left: 5px;
+  }
+  .link_login{
+    margin-right: 5px;
+  }
+}
+
+@media(max-width:340px){
+    .card_login{
+        padding: 8%;
+    }
+    .btn_login{
+padding: 0 20px 0 20px;     }
+}
